@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TNW Clone</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- preheader -->
+    <div class="px-5 py-2 md:flex md:justify-between bg-gray-100 hidden w-full">
+      <ul class="flex gap-5 list-none">
+        <li class="text-black text-sm font-medium"><a href="#">News</a></li>
+        <li class="text-gray-400 text-sm font-medium flex gap-2">
+          <a href="#"
+            >Events
+            <i class="fa-solid fa-chevron-down text-gray-400 text-sm"></i
+          ></a>
+        </li>
+        <li class="text-gray-400 text-sm font-medium"><a href="#">Space</a></li>
+        <li class="text-gray-400 text-sm font-medium">
+          <a href="#">Programs</a>
+        </li>
+      </ul>
+      <ul class="flex gap-3 list-none">
+        <li class="text-gray-400 text-sm font-medium">
+          <a href="#">Newsletters</a>
+        </li>
+        <li class="text-gray-400 text-sm font-medium">
+          <a href="#">Partner with us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="flex px-5 py-4 gap-28 sticky top-0 bg-white z-20">
+      <div class="flex gap-4">
+        <img
+          src="/src/assets/b0ffbc97-5b7d-44a0-87f8-fa915456e2a0.svg"
+          alt="Logo"
+          class="w-20"
+        />
+        <img
+          src="https://s3.eu-west-1.amazonaws.com/tnw.events/hardfork-2018/uploads/companies/ukraine.png"
+          alt="flag"
+          class="w-6"
+        />
+      </div>
+      <ul class="flex gap-5 list-none">
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Latest</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Deep tech</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Sustainability</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Ecosystems</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Data and security</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Fintech and ecommerce</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Future of work</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#">Podcast</a>
+        </li>
+        <li class="text-gray-500 text-lg hover:text-black">
+          <a href="#"
+            >More <i class="fa-solid fa-chevron-down text-gray-400 text-sm"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+    <div class="hidden lg:flex px-5 bg-yellow-300 py-2">
+      <p class="text-sm font-medium">
+        NEW! Free webinar: Nurturing Scaleup Success 🌱
+        <span class="text-sm font-extralight"
+          >Register now to discover the role ecosystems play in startup success </span
+        >→
+      </p>
+    </div>
+    <!-- Hero section -->
+    <div class="px-5 py-5 grid grid-cols-8 grid-rows-5 gap-2 h-[80dvh]">
+      <div
+        class="relative col-span-4 row-span-3 bg-gradient-to-b from-black/20 to-black"
+      >
+        <img
+          src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2025/01/Untitled-design-13.jpg"
+          alt="Img"
+          class="relative w-full h-full bg-cover bg-center mix-blend-overlay object-cover"
+        />
+        <div class="flex flex-col absolute bottom-10 left-8 w-[90%]">
+          <p class="font-light text-white">Deep Tech</p>
+          <h3 class="font-bold text-5xl text-white">
+            The NBA is testing a new smart basketball made in Europe
+          </h3>
+        </div>
+      </div>
+      <div
+        class="relative col-span-2 row-span-2 bg-gradient-to-b from-black/20 to-black"
+      >
+        <img
+          src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2023/05/Untitled-design-8-1.jpg"
+          alt="Img"
+          class="relative w-full h-full bg-cover bg-center mix-blend-overlay object-cover"
+        />
+        <div class="flex flex-col absolute bottom-10 left-8 w-[90%]">
+          <p class="font-light text-white">Deep Tech</p>
+          <h3 class="font-bold text-5xl text-white">
+            The NBA is testing a new smart basketball made in Europe
+          </h3>
+        </div>
+      </div>
+      <div
+        class="relative col-span-2 row-span-2 bg-gradient-to-b from-black/20 to-black"
+      >
+        <img
+          src="https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F10%2FUntitled-design-24-2.jpg&signature=7b2e00ffbdd42bf611367c4351d9401f"
+          alt="Img"
+          class="relative w-full h-full bg-cover bg-center mix-blend-overlay object-cover"
+        />
+        <div class="flex flex-col absolute bottom-10 left-8 w-[90%]">
+          <p class="font-light text-white">Deep Tech</p>
+          <h3 class="font-bold text-5xl text-white">
+            The NBA is testing a new smart basketball made in Europe
+          </h3>
+        </div>
+      </div>
+      <div
+        class="relative col-span-4 row-span-3 bg-gradient-to-b from-black/20 to-black/90"
+      >
+        <img
+          src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2025/01/Untitled-design-12.jpg"
+          alt="Img"
+          class="relative w-full h-full bg-cover bg-center mix-blend-overlay object-cover"
+        />
+        <div class="flex flex-col absolute bottom-10 left-8 w-[90%]">
+          <p class="font-light text-white">Deep Tech</p>
+          <h3 class="font-bold text-5xl text-white">
+            The NBA is testing a new smart basketball made in Europe
+          </h3>
+        </div>
+      </div>
+      <div
+        class="relative col-span-4 row-span-2 bg-gradient-to-b from-black to-black"
+      >
+        <img
+          src="https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2025/01/Untitled-design-13.jpg"
+          alt="Img"
+          class="relative w-full h-full bg-cover bg-center mix-blend-overlay"
+        />
+        <div class="flex flex-col absolute top-5 left-8 w-[90%] gap-2">
+          <h3 class="font-bold text-5xl text-white">
+            The NBA is testing a new smart basketball made in Europe
+          </h3>
+          <p class="font-light text-white">Deep Tech</p>
+          <a
+            href="#"
+            class="px-3 py-2 border-2 border-white rounded-4xl text-white items-center flex justify-center w-[200px]"
+          >
+            Sign up now
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Latest Neews -->
+    <div class="flex flex-col gap-10 px-36 py-10">
+      <p class="font-bold text-4xl">Latest news</p>
+      <div class="grid grid-cols-4 grid-rows-3 gap-5">
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=840%2C474&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F05%2FUntitled-design-1.jpg&signature=31e819052616eb0d3b5467af162a7d08"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F02%2Fjason-rosewell-ASKeuOZqhYU-unsplash.jpg&signature=b7c3644763aa1d5a17d4d229bd8f68d5"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=315%2C177&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F02%2FUntitled-design-1.jpg&signature=db3dd3a58830545901ab95db6fd7b79c"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=315%2C177&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F02%2Fdanilo-alvesd-a7OdG45prSM-unsplash.jpg&signature=fc01c0563df00a1062d9acbb81b347bb"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F01%2FUntitled-design-13.jpg&signature=689004fa2c7b3b28a2bdd6ce7b46b58f"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F02%2Fcash-macanaya-X9Cemmq4YjM-unsplash.jpg&signature=c7d3ce272502333c4dd71d9f03f1c631"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F02%2Fsolen-feyissa-15v6smjHVHQ-unsplash.jpg&signature=c9fb6df4b611259fd009401a37c08ac1"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2023%2F05%2FUntitled-design-8-1.jpg&signature=cdd53613dde9992080e0a07e36d2ae86"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F10%2FUntitled-design-24-2.jpg&signature=ea49b9e1205fc3b637ce0fcea06b640c"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F01%2FUntitled-design-2-1.jpg&signature=ae5e8bcb86e6a650a002ccf864967bc7"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=280%2C158&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F01%2Fmichael-dziedzic-nLFqr9Mr9H8-unsplash.jpg&signature=76643fb32dcea10debd48e45c82870c0"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <img
+            src="https://img-cdn.tnwcdn.com/image?fit=315%2C177&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2025%2F01%2FUntitled-design-12.jpg&signature=9e08f6d187aafab16b0b97e67efad9e2"
+            alt="Img"
+            class="object-cover"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-sm text-gray-500 uppercase">future of work</p>
+            <h3 class="font-semibold">
+              Will AI revolutionise drug development? Researchers say it depends
+              on how it’s used
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="rounded-4xl px-5 py-3 bg-[#64f] w-[200px] text-center self-center"
+      >
+        <a href="#" class="text-white">See all latest news</a>
+      </div>
+    </div>
+    <!-- Get newsletter -->
+    <div class="w-full bg-[#64f] py-10">
+      <div class="flex flex-col items-center gap-8">
+        <div class="flex flex-col gap-3 items-center">
+          <h1 class="text-5xl text-white font-black">Get the TNW newsletter</h1>
+          <p class="text-white font-light">
+            Your weekly deep dive into the European tech scene.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 items-center">
+          <p class="text-white font-light">
+            Every <span class="font-medium">Thursday</span> with regular columns
+            by TNW's co-founder Boris Veldhuijzen van Zanten and Managing Editor
+            Thomas Macaulay.
+          </p>
+          <div
+            class="flex w-[70%] items-center justify-between p-3 bg-white/20 rounded-sm"
+          >
+            <input
+              type="text"
+              name="text"
+              id="#"
+              placeholder="your@email.com"
+              class="text-white"
+            />
+            <a href="#" class="uppercase font-semibold text-white">subscribe</a>
+          </div>
+          <div class="flex gap-4 justify-center">
+            <input type="checkbox" class="w-6 h-6" />
+            <p
+              class="text-gray-200 text-sm font-extralight w-[70%] text-center"
+            >
+              I agree to TNW storing and processing my personal data to receive
+              the requested newsletter(s). For more information check out TNW's
+              <span class="text-blue-400"><a href="#">Privacy Policy</a></span
+              >*
+            </p>
+          </div>
+          <ul class="flex gap-3">
+            <li>
+              <i
+                class="fa-brands fa-square-facebook text-gray-200/40 text-3xl"
+              ></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-instagram text-gray-200/40 text-3xl"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-x-twitter text-gray-200/40 text-3xl"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-youtube text-gray-200/40 text-3xl"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-flipboard text-gray-200/40 text-3xl"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope text-gray-200/40 text-3xl"></i>
+            </li>
+            <li>
+              <i class="fa-brands fa-linkedin text-gray-200/40 text-3xl"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
