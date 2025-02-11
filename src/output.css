@@ -647,6 +647,12 @@
   .items-center {
     align-items: center;
   }
+  .items-start {
+    align-items: flex-start;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
   .justify-between {
     justify-content: space-between;
   }
@@ -674,8 +680,14 @@
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
+  }
   .gap-28 {
     gap: calc(var(--spacing) * 28);
+  }
+  .gap-32 {
+    gap: calc(var(--spacing) * 32);
   }
   .self-center {
     align-self: center;
@@ -695,6 +707,9 @@
   }
   .bg-\[\#64f\] {
     background-color: #64f;
+  }
+  .bg-\[\#6de\] {
+    background-color: #6de;
   }
   .bg-black {
     background-color: var(--color-black);
@@ -858,6 +873,9 @@
   .text-\[\#64f\] {
     color: #64f;
   }
+  .text-\[\#6de\] {
+    color: #6de;
+  }
   .text-black {
     color: var(--color-black);
   }
@@ -876,8 +894,26 @@
   .text-gray-400 {
     color: var(--color-gray-400);
   }
+  .text-gray-400\/80 {
+    color: color-mix(in oklab, var(--color-gray-400) 80%, transparent);
+  }
+  .text-gray-400\/90 {
+    color: color-mix(in oklab, var(--color-gray-400) 90%, transparent);
+  }
   .text-gray-500 {
     color: var(--color-gray-500);
+  }
+  .text-gray-500\/70 {
+    color: color-mix(in oklab, var(--color-gray-500) 70%, transparent);
+  }
+  .text-gray-500\/80 {
+    color: color-mix(in oklab, var(--color-gray-500) 80%, transparent);
+  }
+  .text-gray-500\/90 {
+    color: color-mix(in oklab, var(--color-gray-500) 90%, transparent);
+  }
+  .text-gray-700\/90 {
+    color: color-mix(in oklab, var(--color-gray-700) 90%, transparent);
   }
   .text-white {
     color: var(--color-white);
@@ -896,6 +932,34 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-black);
+      }
+    }
+  }
+  .hover\:underline {
+    &:hover {
+      @media (hover: hover) {
+        text-decoration-line: underline;
+      }
+    }
+  }
+  .hover\:underline-offset-2 {
+    &:hover {
+      @media (hover: hover) {
+        text-underline-offset: 2px;
+      }
+    }
+  }
+  .hover\:underline-offset-4 {
+    &:hover {
+      @media (hover: hover) {
+        text-underline-offset: 4px;
+      }
+    }
+  }
+  .hover\:underline-offset-8 {
+    &:hover {
+      @media (hover: hover) {
+        text-underline-offset: 8px;
       }
     }
   }
